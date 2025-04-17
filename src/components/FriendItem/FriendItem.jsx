@@ -1,7 +1,7 @@
 import css from './FriendItem.module.css';
 import clsx from 'clsx';
 
-export default function FriendItem({ props: { avatar, name, isOnline } }) {
+export default function FriendItem({ avatar, name, isOnline }) {
   return (
     <li className={css.container}>
       <img src={avatar} alt={`${name} photo`} width={90} />

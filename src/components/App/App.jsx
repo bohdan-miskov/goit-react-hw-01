@@ -9,9 +9,15 @@ import TransactionHistory from '../TransactionHistory/TransactionHistory';
 export default function App() {
   return (
     <div className={css.container}>
-      <Profile props={userData} />
-      <FriendList props={friends} />
-      <TransactionHistory props={transactions} />
+      <Profile
+        username={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        avatar={userData.avatar}
+        stats={userData.stats}
+      />
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
     </div>
   );
 }

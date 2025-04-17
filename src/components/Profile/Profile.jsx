@@ -1,13 +1,11 @@
 import css from './Profile.module.css';
 
 export default function Profile({
-  props: {
-    username,
-    tag,
-    location,
-    avatar,
-    stats: { followers, views, likes },
-  },
+  username,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
 }) {
   return (
     <div className={css.container}>
