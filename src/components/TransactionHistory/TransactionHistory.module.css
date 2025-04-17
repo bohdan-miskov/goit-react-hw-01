@@ -1,0 +1,17 @@
+.table {
+  min-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.head {
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
+  text-align: center;
+}
+.headCell {
+  border: 1px solid black;
+  padding: 8px;
+  width: calc(100% / 3);
+  font-size: 18px;
+  font-weight: 600;
+}

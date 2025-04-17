@@ -1,0 +1,49 @@
+.container {
+  width: 250px;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: rgb(255, 246, 234);
+  font-size: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.header {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  color: gray;
+  text-align: center;
+}
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+}
+.infoList {
+  display: flex;
+  color: black;
+  background-color: rgb(201, 201, 201);
+}
+.infoItem {
+  padding: 12px;
+  border-top: 2px solid rgb(65, 65, 65);
+  text-align: center;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.infoItem:nth-child(2) {
+  border-right: 2px solid rgb(65, 65, 65);
+  border-left: 2px solid rgb(65, 65, 65);
+}
+.infoValue {
+  font-weight: 700;
+}
